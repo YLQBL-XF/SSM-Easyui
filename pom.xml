@@ -1,0 +1,172 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.encifang</groupId>
+  <artifactId>SmallProject</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>SmallProject Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    
+		<!-- spring的jar包 -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>4.3.10.RELEASE</version>
+        </dependency>
+  
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>4.3.10.RELEASE</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>4.3.10.RELEASE</version>
+        </dependency>	
+        
+        <!-- 报错添加的jar包 -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+            <version>4.3.10.RELEASE</version>
+        </dependency>
+        
+        <!-- =======================springmvc========================== -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>4.3.10.RELEASE</version>
+        </dependency>
+        <!-- =====================mybatis===================== -->
+        <!-- mybatis 出现分页使用异常,极有可能是版本问题-->
+	    <dependency>
+	      <groupId>org.mybatis</groupId>
+	      <artifactId>mybatis</artifactId>
+	      <version>3.4.4</version>
+	    </dependency>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-spring</artifactId>
+            <version>1.3.0</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.44</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- alibaba的数据源jar添加 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.1.5</version>
+        </dependency>
+        
+       <!-- 执行测试报错要求添加的 jar包 -->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.8.12</version>
+        </dependency>
+        <!-- springmvc 配置文件中的避免浏览器响应ajax时返回json出现下载文件的jar包 -->
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>1.9.12</version>
+        </dependency>
+        <!-- 文件上传下载的jar -->
+        <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+            <version>1.3.2</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>3.0-alpha-1</version>
+            <scope>compile</scope>
+        </dependency>
+        <!-- 日志加jar包的添加 -->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+        <!-- 很强大的json-object转换的jar包 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.40</version>
+        </dependency>
+    
+    <!-- mybatis pagehelper -->
+    <dependency>
+      <groupId>com.github.pagehelper</groupId>
+      <artifactId>pagehelper</artifactId>
+      <version>4.2.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.jsqlparser</groupId>
+      <artifactId>jsqlparser</artifactId>
+      <version>1.0</version>
+    </dependency>
+
+
+
+	<!--  -->
+	 <dependency>
+             <groupId>com.fasterxml.jackson.jaxrs</groupId>
+             <artifactId>jackson-jaxrs-xml-provider</artifactId>
+             <version>2.5.2</version>
+       </dependency>
+
+       <dependency>  
+           <groupId>com.fasterxml.jackson.core</groupId>  
+           <artifactId>jackson-core</artifactId>  
+           <version>2.5.2</version>  
+       </dependency>  
+
+       <dependency>  
+           <groupId>com.fasterxml.jackson.core</groupId>  
+           <artifactId>jackson-databind</artifactId>  
+           <version>2.5.2</version>  
+       </dependency>  
+
+       <dependency>
+           <groupId>com.fasterxml.jackson.core</groupId>
+           <artifactId>jackson-annotations</artifactId>
+           <version>2.5.2</version>
+       </dependency>
+
+  </dependencies>
+  <build>
+    <finalName>SmallProject</finalName>
+    
+    <plugins>  
+         <plugin>  
+             <groupId>org.apache.maven.plugins</groupId>  
+             <artifactId>maven-compiler-plugin</artifactId>  
+             <version>3.6.2</version>  
+             <configuration>
+                 <source>1.8</source>  
+                 <target>1.8</target>   
+             </configuration>  
+         </plugin>  
+    </plugins>
+    
+  </build>
+  
+  
+</project>

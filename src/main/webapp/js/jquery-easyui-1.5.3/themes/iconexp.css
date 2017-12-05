@@ -1,0 +1,407 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.icon-htrackt{
+	background:url('icons/htrackt.png') no-repeat center center;
+}
+.icon-chjjfw{
+	background:url('icons/not_ecurity_re.png') no-repeat center center;
+}
+.icon-goodfw{
+	background:url('icons/security_re.png') no-repeat center center;
+}
+
+.icon-excelExp{
+	background:url('icons/excel.png') no-repeat center center;
+}
+
+.icon-sale{
+	background:url('icons/sale.png') no-repeat center center;
+}
+.icon-plan{
+	background:url('icons/plan.png') no-repeat center center;
+}
+.icon-execute{
+	background:url('icons/execute.png') no-repeat center center;
+}
+.icon-success{
+	background:url('icons/success.png') no-repeat center center;
+}
+.icon-develop{
+	background:url('icons/develop.png') no-repeat center center;
+}
+.icon-service{
+	background:url('icons/service.png') no-repeat center center;
+}
+.icon-level{
+	background:url('icons/level.png') no-repeat center center;
+}
+.icon-earth{
+	background:url('icons/earth.png') no-repeat center center;
+}
+.icon-product{
+	background:url('icons/product.png') no-repeat center center;
+}
+.icon-storage{
+	background:url('icons/storage.png') no-repeat center center;
+}
+.icon-navigation{
+	background:url('icons/navigation.png') no-repeat center center;
+}
+.icon-admin{
+	background:url('icons/admin.png') no-repeat center center;
+}
+.icon-key{
+	background:url('icons/key.png') no-repeat center center;
+}
+.icon-grant{
+	background:url('icons/grant.png') no-repeat center center;
+}
+.icon-customer{
+	background:url('icons/customer.png') no-repeat center center;
+}
+.icon-statistic{
+	background:url('icons/statistic.png') no-repeat center center;
+}
+.icon-basic{
+	background:url('icons/basic.png') no-repeat center center;
+}
+.icon-bluekey{
+	background:url('icons/bluekey.png') no-repeat center center;
+}
+.icon-document{
+	background:url('icons/document.png') no-repeat center center;
+}
+.icon-rdocument{
+	background:url('icons/rdocument.png') no-repeat center center;
+}
+.icon-gdocument{
+	background:url('icons/gdocument.png') no-repeat center center;
+}
+.icon-feedback{
+	background:url('icons/feedback.png') no-repeat center center;
+}
+.icon-deal{
+	background:url('icons/deal.png') no-repeat center center;
+}
+.icon-information{
+	background:url('icons/information.png') no-repeat center center;
+}
+.icon-lost{
+	background:url('icons/lost.png') no-repeat center center;
+}
+.icon-type{
+	background:url('icons/type.png') no-repeat center center;
+}
+.icon-pie{
+	background:url('icons/pie.png') no-repeat center center;
+}
+.icon-pie2{
+	background:url('icons/pie2.png') no-repeat center center;
+}
+.icon-column{
+	background:url('icons/column.png') no-repeat center center;
+}
+.icon-role{
+	background:url('icons/role.png') no-repeat center center;
+}
+.icon-user{
+	background:url('icons/user.png') no-repeat center center;
+}
+.icon-finger{
+	background:url('icons/finger.png') no-repeat center center;
+}
+.icon-communication{
+	background:url('icons/communication.png') no-repeat center center;
+}
+.icon-car{
+	background:url('icons/car.png') no-repeat center center;
+}
+.icon-calcul{
+	background:url('icons/calcul.png') no-repeat center center;
+}
+.icon-traffic{
+	background:url('icons/traffic.png') no-repeat center center;
+}
+.icon-veh{
+	background:url('icons/veh.png') no-repeat center center;
+}
+.icon-naviMap{
+	background:url('icons/naviMap.png') no-repeat center center;
+}
+.icon-basicData{
+	background:url('icons/basicData.png') no-repeat center center;
+}
+.icon-carb{
+	background:url('icons/carb.png') no-repeat center center;
+}
+.icon-rent{
+	background:url('icons/rent.png') no-repeat center center;
+}
+.icon-bus{
+	background:url('icons/bus.png') no-repeat center center;
+}
+.icon-team{
+	background:url('icons/team.png') no-repeat center center;
+}
+
+/*财务管理 */
+.icon-cwgl{
+	background:url('icons/cwgl.png') no-repeat center center;
+}
+
+/*订单管理 */
+.icon-ddgl{
+	background:url('icons/ddgl.png') no-repeat center center;
+}
+
+/*定位管理 */
+.icon-dwgl{
+	background:url('icons/dwgl.png') no-repeat center center;
+}
+
+/*会员管理 */
+.icon-hygl{
+	background:url('icons/hygl.png') no-repeat center center;
+}
+
+/*权限管理 */
+.icon-qxgl{
+	background:url('icons/qxgl.png') no-repeat center center;
+}
+
+/*子账目 */
+.icon-zzm{
+	background:url('icons/zzm.png') no-repeat center center;
+}
+
+/*子菜单 */
+.icon-submenu{
+	background:url('icons/submenu.png') no-repeat center center;
+}
+
+/*商品线路管理 */
+.icon-progl{
+	background:url('icons/progl.png') no-repeat center center;
+}
+
+/*新申请 */
+.icon-apply{
+	background:url('icons/apply.png') no-repeat center center;
+}
+
+/*导出 */
+.icon-export{
+	background:url('icons/export.png') no-repeat center center;
+}
+
+/*报警*/
+.icon-YgwAlert{
+	background:url('icons/YgwAlert.png') no-repeat center center;
+}
+/*保存*/
+.icon-YgwSave{
+	background:url('icons/YgwSave.png') no-repeat center center;
+}
+
+
+/*指派*/
+.icon-YgwAssign{
+	background:url('icons/YgwAssign.png') no-repeat center center;
+}
+
+/*维保申请*/
+.icon-YgwApply{
+	background:url('icons/YgwApply.png') no-repeat center center;
+}
+
+/*取消*/
+.icon-YgwCancel{
+	background:url('icons/YgwCancel.png') no-repeat center center;
+}
+
+/*删除*/
+.icon-YgwDel{
+	background:url('icons/YgwDel.png') no-repeat center center;
+}
+
+/*下载*/
+.icon-YgwDownload{
+	background:url('icons/YgwDownload.png') no-repeat center center;
+}
+
+/*修改*/
+.icon-YgwEdit{
+	background:url('icons/YgwEdit.png') no-repeat center center;
+}
+
+/*审核*/
+.icon-YgwExamine{
+	background:url('icons/YgwExamine.png') no-repeat center center;
+}
+
+/*费用审核*/
+.icon-YgwExpenseAud{
+	background:url('icons/YgwExpenseAud.png') no-repeat center center;
+}
+
+/*多车定位*/
+.icon-YgwLocation{
+	background:url('icons/YgwLocation.png') no-repeat center center;
+}
+
+/*logo*/
+.icon-YgwLOGO{
+	background:url('icons/YgwLOGO.png') no-repeat center center;
+}
+
+/*维保信息*/
+.icon-YgwMainten{
+	background:url('icons/YgwMainten.png') no-repeat center center;
+}
+
+/*订单指派*/
+.icon-YgwOrderAss{
+	background:url('icons/YgwOrderAss.png') no-repeat center center;
+}
+
+/*安全退出*/
+.icon-YgwOut{
+	background:url('icons/YgwOut.png') no-repeat center center;
+}
+
+/*查询*/
+.icon-YgwQuery{
+	background:url('icons/YgwQuery.png') no-repeat center center;
+}
+
+/*安全范围*/
+.icon-YgwSafe{
+	background:url('icons/YgwSafe.png') no-repeat center center;
+}
+
+/*设置*/
+.icon-YgwSet{
+	background:url('icons/YgwSet.png') no-repeat center center;
+}
+
+/*终端管理安装*/
+.icon-Ygwobd{
+	background:url('icons/Ygwobd.png') no-repeat center center;
+}
+/*未安装车辆*/
+.icon-YgwNotAz{
+	background:url('icons/YgwNotAz.png') no-repeat center center;
+}
+/*异常车辆*/
+.icon-YgwYcVeh{
+	background:url('icons/YgwYcVeh.png') no-repeat center center;
+}
+
+/*提交*/
+.icon-YgwSubmit{
+	background:url('icons/YgwSubmit.png') no-repeat center center;
+}
+
+/*行驶轨迹*/
+.icon-YgwTraiectory{
+	background:url('icons/YgwTraiectory.png') no-repeat center center;
+}
+
+/*三角*/
+.icon-YgwTriangle{
+	background:url('icons/YgwTriangle.png') no-repeat center center;
+}
+
+/*预警范围*/
+.icon-YgwWarning{
+	background:url('icons/YgwWarning.png') no-repeat center center;
+}
+
+/*工作信息*/
+.icon-YgwWorkMessage{
+	background:url('icons/YgwWorkMessage.png') no-repeat center center;
+}
+
+/*位置*/
+.icon-YgwPosition{
+	background:url('icons/YgwPosition.png') no-repeat center center;
+}
+/*线路规划*/
+.icon-YgwRoute{
+	background:url('icons/YgwRoute.png') no-repeat center center;
+}
+
+/*实时跟踪*/
+.icon-YgwTrack{
+	background:url('icons/YgwTrack.png') no-repeat center center;
+}
+/*车辆去向*/
+.icon-YgwOutgoing{
+	background:url('icons/YgwOutgoing.png') no-repeat center center;
+}
+
+/*超速报警*/
+.icon-YgwcarSpeed{
+	background:url('icons/YgwcarSpeed.png') no-repeat center center;
+}
+/*故障报警*/
+.icon-YgwcarFault{
+	background:url('icons/YgwcarFault.png') no-repeat center center;
+}
+/*围栏报警*/
+.icon-YgwEleFence{
+	background:url('icons/YgwEleFence.png') no-repeat center center;
+}
+/*围栏方案*/
+.icon-YgwFenceFa{
+	background:url('icons/YgwFenceFa.png') no-repeat center center;
+}
+/*围栏绑定*/
+.icon-YgwcarBindingEle{
+	background:url('icons/YgwcarBindingEle.png') no-repeat center center;
+}
+
+/*生成围栏*/
+.icon-YgwEleFenNew{
+	background:url('icons/YgwEleFenNew.png') no-repeat center center;
+}
+
+/*围栏设定*/
+.icon-YgwCarEle{
+	background:url('icons/YgwCarEle.png') no-repeat center center;
+}
+/*线路规划*/
+.icon-linePlan{
+	background:url('icons/linePlan.png') no-repeat center center;
+}
+/*路点管理*/
+.icon-waypoints{
+	background:url('icons/waypoints.png') no-repeat center center;
+}
+/*清空条件*/
+.icon-YgwClear{
+	background:url('icons/YgwClear.png') no-repeat center center;
+}
+
+/*处理*/
+.icon-YgwDeal{
+	background:url('icons/YgwDeal.png') no-repeat center center;
+}
+/*详情*/
+.icon-YgwDetails{
+	background:url('icons/YgwDetails.png') no-repeat center center;
+}
+/*拆除*/
+.icon-YgwChaichu{
+	background:url('icons/YgwChaichu.png') no-repeat center center;
+}
+/*维保完成*/
+.icon-YgwWBC{
+	background:url('icons/YgwWBC.png') no-repeat center center;
+}
+/*会员卡*/
+.icon-YgwCard{
+	background:url('icons/YgwCard.png') no-repeat center center;
+}

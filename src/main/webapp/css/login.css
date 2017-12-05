@@ -1,0 +1,121 @@
+html {
+	width: 100%;
+	height: 100%
+}
+
+.loginBox{
+	margin: 0 auto;
+	top:45%;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 0px auto;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/bj3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#center_left {
+	width: 600px;
+	height: 380px;
+	background-image: url(../img/center_left.png);
+	/*float: left;*/
+	margin: 0 auto;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -190px 0 0 -300px;
+}
+
+#center_middle {
+	width: 300px;
+	height: 60px;
+	margin: 174px 193px auto;
+	;
+}
+
+#user input {
+	border-radius: 5px;
+	border-width: 1px;
+	width: 207px;
+	height: 30px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+#password input {
+	border-radius: 5px;
+	border-width: 1px;
+	width: 207px;
+	height: 30px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	
+}
+
+#btn1 button{
+	background-image: url(../img/anniu2.png);
+	background-color: transparent;
+	border: 0;
+	width: 160px;
+	height: 52px;
+	/*display: block;*/
+	/*margin: 60px;*/
+	float: left;
+	margin-top: 55px;
+	margin-left: 50px;
+	outline: none;
+	cursor: pointer;
+	text-indent: -200px;
+	overflow: hidden;
+}
+
+#btn1 button:hover {
+	background-image: url(../img/anniu1.png);
+	text-decoration: none;
+}
+
+#btn2 a:hover {
+	background-image: url(../img/2.png);
+	text-decoration: none;
+}
+
+#btn2 a  {
+	background-image: url(../img/12.png);
+	width: 160px;
+	height: 52px;
+	/*display: block;*/
+	/*margin: -110px 384px;*/
+	float: right;
+	margin-top: 55px;
+	margin-right: 50px;
+}
+
+#user {
+	float: left;
+	margin-left: -43px;
+	margin-top: -52px;
+}
+
+#password {
+	float: left;
+	margin-left: -27px;
+	margin-top: 10px;
+}
+.user_error{
+	font-size: 12px;
+	color:#e84848 ;
+	margin-left: 60px;
+}
+.password_error{
+	font-size: 12px;
+	color:#e84848 ;
+	margin-left: 45px;
+}

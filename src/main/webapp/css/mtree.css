@@ -1,0 +1,148 @@
+@import url("font-awesome.min.css");
+
+body{
+	margin: 0px;
+	width: 100%;
+	font-family: "微软雅黑";
+	font-size: 14pt !important;
+}
+ul,menu,dir{
+	padding:0px;
+	margin: 0px;
+}
+ul.mtree {
+	  opacity: 0;
+	  margin-left: 0;
+	  padding: 0em;
+}
+ul.mtree ul {
+  margin-left: 1em;
+
+
+}
+ul.mtree > li {
+  border-top: 1px solid #95B8E7;
+  border-bottom:1px solid #95B8E7;
+}
+ul.mtree li {
+  list-style: none;
+  background: #E7F0FF;
+  padding: 5px 0px 5px 0px
+}
+
+
+ul.mtree a {
+  display: block;
+
+
+}
+ul.mtree li.mtree-node > a {
+  font-weight: bold;
+
+}
+ul.mtree .mtree-level-1 li {
+	font-size: 11px;
+	background: #F4F4F4;
+
+}
+
+.icon-list-ul{
+	padding-left: 40px !important;
+}
+
+
+
+ul.mtree a {
+	cursor:pointer;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+}
+
+
+
+
+
+
+ul.mtree.jet ul {
+  margin-left: 0;
+}
+ul.mtree.jet li {
+  margin-bottom: 1px;
+}
+ul.mtree.jet li:last-child {
+  margin-bottom: 0px;
+}
+ul.mtree.jet li:first-child {
+  margin-top: 1px;
+}
+ul.mtree.jet li.mtree-active a {
+  background: #F4F4F4;
+}
+ul.mtree.jet li.mtree-active li:last-child > a {
+  border-radius: 0px 0px 3px 3px;
+}
+ul.mtree.jet li.mtree-active > a {
+  background: #008cba;
+  color: #FFF;
+  border-radius: 3px 3px 0px 0px;
+}
+ul.mtree.jet li > a:hover{
+  background: #4DACE1;
+  color: #FFF;
+}
+ul.mtree.jet a {
+  padding: 5px 0px 5px 4em;
+}
+ul.mtree.jet li li > a {
+  padding-left: 5em;
+}
+ul.mtree.jet li li li > a {
+  padding-left: 0;
+}
+ul.mtree.jet li li li li > a {
+  padding-left: 0em;
+}
+ul.mtree.jet li li li li li > a {
+  padding-left: 0em;
+}
+
+ul.mtree.jet li.mtree-node {
+  position: relative;
+}
+ul.mtree.jet li.mtree-node > a:before {
+  font-size:16px;
+  color:#56ABE4;
+  position:absolute;
+  left:10px;
+  margin-top:-1px;
+  font-weight: normal;
+}
+ul.mtree.jet li.mtree-node > a:after {
+  color: #000;
+  font-weight: normal;
+  position: absolute;
+  right: 10px;
+}
+ul.mtree.jet li.mtree-open > a:after {
+  font-size:16px;
+  color:#6EB0E4;
+  content: "\f102";
+}
+ul.mtree.jet li.mtree-closed > a:after {
+  font-size:16px;
+  color:#6EB0E4;
+  content: '\f103';
+}
+
+.icon-ddgl:before { content: '\f505'; }								/*订单管理*/
+.icon-clgl:before { content: '\f500'; }								/*车辆管理*/
+.icon-khgl:before { content: '\f502'; }								/*客户管理*/
+.icon-fyjs:before { content: '\f508'; }								/*费用结算*/
+.icon-tjfx:before { content: '\f503'; }								/*统计分析*/
+.icon-jcgl:before { content: '\f501'; }								/*基础管理*/
+.icon-xtgl:before { content: '\f507'; }								/*系统管理*/
+.icon-position:before { content: '\f041'; }							/*车辆定位*/
+.icon-list:before { margin-right:5px; content: "\f0ca"}				/*子菜单列表*/

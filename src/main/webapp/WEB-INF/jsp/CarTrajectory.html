@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <title>车辆轨迹回放</title>
+    <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
+    <script src="http://webapi.amap.com/maps?v=1.4.0&key=d097c2ed880c93c17ad2e5c190203c60"></script>
+    <script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
+</head>
+<body>
+<div id="container"></div>
+<div class="button-group">
+    <input type="button" class="button" value="开始动画" id="start"/>
+     <input type="button" class="button" value="暂停动画" id="pause"/>
+      <input type="button" class="button" value="继续动画" id="resume"/>
+    <input type="button" class="button" value="停止动画" id="stop"/>
+</div>
+<script>
+    var marker, lineArr;
+    var lngX = 108.947273, latY = 34.30993;
+	var map = new AMap.Map("container", {
+        resizeEnable: true,
+        center: [lngX ,latY],
+        zoom: 17
+    });
+    marker = new AMap.Marker({
+        map: map,
+        position: [lngX,latY],
+        icon: "http://webapi.amap.com/images/car.png",
+        offset: new AMap.Pixel(-26, -13),
+        autoRotation: true
+    });
+    /*var lngX = 116.40, latY = 39.91;        
+    lineArr.push([lngX, latY]);
+    for (var i = 1; i < 4; i++) {
+        lngX = lngX + Math.random() * 0.05;
+        if (i % 2) {
+            latY = latY + Math.random() * 0.00;
+        } else {
+            latY = latY + Math.random() * 0.06;
+        }
+        lineArr.push([lngX, latY]);
+    }*/
+	lineArr=[
+		[108.947273,34.30993],
+		[108.947187,34.340924],
+		[108.960319,34.340924],
+		[108.965684,34.340853],
+		[108.971263,34.339825],
+		[108.985811,34.340286],
+		[108.99581,34.342128],
+		[108.995767,34.358639],
+		[108.998643,34.360623],
+		[109.018942,34.358356],
+		[109.021388,34.356833],
+		[109.024907,34.356903],
+		[109.057093,34.3529],
+		[109.05778,34.351766],
+		[109.055763,34.334297],
+		[109.046794,34.315336],
+		[109.043661,34.311295],
+		[108.940964,34.310373]
+	];
+  
+    // 绘制轨迹
+    var polyline = new AMap.Polyline({
+        map: map,
+        path: lineArr,
+        strokeColor: "#00A",  //线颜色
+        // strokeOpacity: 1,     //线透明度
+        strokeWeight: 3,      //线宽
+        // strokeStyle: "solid"  //线样式
+    });
+    var passedPolyline = new AMap.Polyline({
+        map: map,
+        // path: lineArr,
+        strokeColor: "#F00",  //线颜色
+        // strokeOpacity: 1,     //线透明度
+        strokeWeight: 3,      //线宽
+        // strokeStyle: "solid"  //线样式
+    });
+
+
+    marker.on('moving',function(e){
+        passedPolyline.setPath(e.passedPath);
+    })
+    map.setFitView();
+
+    AMap.event.addDomListener(document.getElementById('start'), 'click', function() {
+        marker.moveAlong(lineArr, 10000);
+    }, false);
+    AMap.event.addDomListener(document.getElementById('pause'), 'click', function() {
+        marker.pauseMove();
+    }, false);
+    AMap.event.addDomListener(document.getElementById('resume'), 'click', function() {
+        marker.resumeMove();
+    }, false);
+    AMap.event.addDomListener(document.getElementById('stop'), 'click', function() {
+        marker.stopMove();
+    }, false);
+
+</script>
+</body>
+</html>

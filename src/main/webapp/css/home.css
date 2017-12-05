@@ -1,0 +1,127 @@
+  html,body{height: 100%;}
+    body{
+      min-width: 1366px;
+      height: 100%;
+    }
+    #loginOut{
+      background: url("<%= request.getContextPath()%>/img/logout.png") no-repeat center center;
+      width: 98px;
+      height: 28px;
+      display:inline-block;
+      padding-top: 12px;
+    }
+    #loginOut:HOVER {
+      background: url("<%= request.getContextPath()%>/img/logout_over.png") no-repeat center center;
+      width: 98px;
+      height: 28px;
+      display:inline-block;
+      padding-top: 12px;
+    }
+    #north{
+      width:100%;
+      height: 40px;
+        background: url(<%= request.getContextPath()%>/img/head-bg.png) no-repeat center center;
+        background-size:cover;
+        color:#fff;
+        font-family: Verdana, 微软雅黑,黑体"
+    }
+    .transition{
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    .head-user-btn p{padding-right:40px;height: 32px;line-height:32px;text-align:right;margin: 0;}
+    .head-user-btn p a{ cursor: pointer;display: inline-block;-webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;}
+    .head-user-btn p a:HOVER{ cursor: pointer; background: #E7F0FF;color: #000 }
+    .head-user-btn span{ vertical-align: middle; }
+    .head-user-btn img{ vertical-align: middle; }
+    .head-user-btn span{ padding: 0 10px 0 10px; vertical-align: middle; }
+    .top-menu-panel{
+      margin:1px 0 0 0;
+      padding:0px;
+      margin-right:100px;
+      height: 50px;
+    }
+    .top-menu-panel:after{
+      content: "";
+      display: block;
+      clear: both;
+    }
+    .top-menu-panel li{
+      position:relative;
+      cursor:pointer	;
+      list-style:none;
+      text-align:center;
+      float: right;
+      padding:6px 10px;
+      border-radius: 4px;
+      width:52px;
+      margin: 0 3%;
+      height: 50px;
+      border: 2px solid #6FBCF4;
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5;
+    }
+
+    .top-menu-panel li img{
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+    }
+    .top-menu-panel li:hover{border: 2px solid #4DACE1;background:#4DACE1; }
+    .top-menu-panel li:hover img{
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+    .top-menu-panel li span{
+      font-size:12px;
+      margin-top:5px;
+      display:block;
+      height: auto;
+    }
+
+    .top-menu-hot:after{
+      content: attr(data-attr);
+      padding: 5px;
+      width:14px;
+      height:14px;
+      border-radius:12px;
+      color:#fff;
+      position:absolute;
+      background: #f00;
+      top:-8px;
+      right: -8px;
+    }
+    .top-menu-hot:HOVER:after{
+      content: attr(data-attr);
+      width:14px;
+      height:14px;
+      padding:5px;
+      border-radius:12px;
+      color:#f00;
+      position:absolute;
+      background: #fff;
+      top:-8px;
+      right: -8px;
+    }
+    .panel-icon.icon-navigation{
+      margin-left: 7px;
+    }
+    .layout-panel-west .panel-title{
+      padding-left: 53px;
+      font-size:14px;
+    }

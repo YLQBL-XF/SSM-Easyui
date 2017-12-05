@@ -1,0 +1,111 @@
+.error{
+	margin-top:5px ;
+	padding-left:140px;
+	font-size: 12px;
+	color:#e84848;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+html{
+	height: 100%;
+}
+body {
+	font-family: "微软雅黑", "microsoft yahei";
+	margin: 0px auto;
+	width: 100%;
+	height: 100%;
+	background: url("../img/bj3.jpg") left top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+img {
+	border: 0;
+}
+
+.zhuce {
+	width: 100%;
+	max-width: 500px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	/*火狐*/
+	-moz-transform: translate(-50%, -50%);
+	/*IE*/
+	-ms-transform: translate(-50%, -50%);
+	/* Safari 和 Chrome */
+	-webkit-transform: translate(-50%, -50%);
+	/*欧鹏*/
+	-o-transform: translate(-50%, -50%);
+	background: url("../img/bg_2.png") left top no-repeat;
+	background-size: 100% 100%;
+	padding: 50px 0px;
+	box-sizing: border-box;
+}
+.error{
+	margin-top:5px ;
+	padding-left:140px;
+	font-size: 12px;
+	color:#e84848;
+}
+.ipt{
+	padding: 10px;
+	padding-left: 15px;
+	text-align: left;
+	box-sizing: border-box;
+}
+.hint{
+	display: inline-block;
+	width: 120px;
+	text-align: right;
+	margin-right: 15px;
+	color: #3f2020;
+}
+.ipt input {
+	width: 50%;
+	height: 30px;
+	border-radius: 5px;
+	text-align: left;
+	padding-left: 5px;
+}
+.ipt_education{
+	width: 52%;
+	height: 30px;
+	/*margin-left: 138px;*/
+	border-radius: 5px;
+}
+.btn{
+	width: 50%;
+	margin-left: 150px;
+	padding: 10px 5px;
+	border-radius:5px;
+	font-size: 16px;
+	color: #fafafa;
+	border-color:#ee913e ;
+	background: #ee913e;
+}
+.directlogin{
+	width: 50%;
+	margin-left: 150px;
+	text-align: center;
+}
+.directlogin a{
+	color: #605e5e;
+	font-size: 14px;
+	margin-top: 15px;
+    display: inline-block;
+}
+.directlogin a:hover{
+	border-bottom: 1px solid #605e5e;
+}
